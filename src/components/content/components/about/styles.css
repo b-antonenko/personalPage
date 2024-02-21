@@ -1,3 +1,100 @@
 .about {
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 0;
+
+    .about_section_header {
+        text-align: start;
+        
+        h2 {
+            margin: 10px 0px 40px;
+            font-size: 26px;
+            color: #ccd6f6;
+            font-weight: 600;
+            font-family: 'Inter';
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: '01. ';
+            font-family: '"Roboto Mono", monospace;';
+            margin-right: 10px;
+            font-size: 20px;
+            font-weight: 400;
+            color: #64ffda;
+            bottom: 4px;
+        }
+
+        h2::after {
+            content: "";
+            display: block;
+            width: 300px;
+            height: 1px;
+            margin-left: 20px;
+            background-color: #233554;
+        }
+    }
+
+    .about_content {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        gap: 50px;
+
+        p {
+            margin: 0px 0px 15px;
+            color: #8892b0;
+            font-size: 20px;
+            text-align: left;
+            font-family: inherit;
+        }
+    }
+
+    .about_tech-list {
+        gap: 0px 10px;
+        padding: 0px;
+        margin: 20px 0px 0px;
+        overflow: hidden;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 60px;
+        flex-wrap: wrap;
+
+        li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            font-family: '"Roboto Mono", monospace;';
+            font-size: 13px;
+            color: #8892b0;
+        }
+
+        li::before {
+            content: "▹";
+            left: 0px;
+            color: #64ffda;
+            font-size: 14px;
+            line-height: 12px;
+            margin-right: 20px;
+        }
+    }
+
+    .about_image {
+        height: 300px;
+        width: 300px;
+        box-sizing: border-box;
+        position: relative;
+
+        img {
+            height: auto;
+            width: auto;
+            max-width: 100%;
+            max-height: 100%
+        }        
+    }
 };

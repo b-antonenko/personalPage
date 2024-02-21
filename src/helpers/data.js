@@ -2,7 +2,7 @@
 export const linksData = [
   {
     title: 'About',
-    link: '/about',
+    link: '/#about',
     num: '01. ',
     key: 'about',
   },
@@ -25,3 +25,5 @@ export const linksData = [
     key: 'contact',
   },
 ];
+
+export const technologies = ['Javascript', 'TypeScript', 'React', 'React Native', 'Redux', 'Jest'];
