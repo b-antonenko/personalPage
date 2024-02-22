@@ -1,5 +1,6 @@
 import React from 'react';
 import { technologies } from '../../../../helpers/data';
+import Title from '../../components/Title';
 import photo from '../../../../images/bohdan.jpg';
 import './styles.css';
 
@@ -8,11 +9,7 @@ function About() {
 
   return (
     <section className="about" id="about">
-      <div className="about_section_header">
-        <h2>
-          About Me
-        </h2>
-      </div>
+      <Title title="About Me" sectionNumber="01. " />
       <div className="about_content">
         <div className="about_text">
           <p>

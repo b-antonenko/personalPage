@@ -1,8 +1,9 @@
 import React from 'react';
 import './styles.css';
 
-import Hero from './components/hero/Hero';
-import About from './components/about/About';
+import Hero from './sections/hero/Hero';
+import About from './sections/about/About';
+import Experience from './sections/experience';
 
 function Content() {
   console.log('jhello content');
@@ -11,6 +12,7 @@ function Content() {
     <main className="main">
       <Hero />
       <About />
+      <Experience />
     </main>
   );
 }

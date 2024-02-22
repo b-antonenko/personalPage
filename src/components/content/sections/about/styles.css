@@ -1,43 +1,4 @@
 .about {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 100px 0;
-
-    .about_section_header {
-        text-align: start;
-        
-        h2 {
-            margin: 10px 0px 40px;
-            font-size: 26px;
-            color: #ccd6f6;
-            font-weight: 600;
-            font-family: 'Inter';
-            display: flex;
-            align-items: center;
-        }
-
-        h2::before {
-            content: '01. ';
-            font-family: '"Roboto Mono", monospace;';
-            margin-right: 10px;
-            font-size: 20px;
-            font-weight: 400;
-            color: #64ffda;
-            bottom: 4px;
-        }
-
-        h2::after {
-            content: "";
-            display: block;
-            width: 300px;
-            height: 1px;
-            margin-left: 20px;
-            background-color: #233554;
-        }
-    }
-
     .about_content {
         display: grid;
         grid-template-columns: 3fr 2fr;
