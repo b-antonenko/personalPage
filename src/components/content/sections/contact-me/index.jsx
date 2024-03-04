@@ -1,0 +1,25 @@
+/* eslint-disable max-len */
+import React from 'react';
+import './styles.css';
+
+function Contact() {
+  return (
+    <section id="contact">
+      <div className="contact_title">
+        <h2>04. What’s Next?</h2>
+        <h2 className="hello">Get In Touch</h2>
+      </div>
+      <div className="contact-text">
+        <p>
+          Although I’m not currently looking for any new opportunities,
+          <br />
+          my inbox is always open. Whether you have a question or just want to say hi,
+          <br />
+          I’ll try my best to get back to you!
+        </p>
+      </div>
+    </section>
+  );
+}
+
+export default Contact;

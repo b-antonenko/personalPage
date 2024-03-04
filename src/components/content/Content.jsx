@@ -4,6 +4,8 @@ import './styles.css';
 import Hero from './sections/hero/Hero';
 import About from './sections/about/About';
 import Experience from './sections/experience';
+import Projects from './sections/projects';
+import Contact from './sections/contact-me';
 
 function Content() {
   console.log('jhello content');
@@ -13,6 +15,8 @@ function Content() {
       <Hero />
       <About />
       <Experience />
+      <Projects />
+      <Contact />
     </main>
   );
 }

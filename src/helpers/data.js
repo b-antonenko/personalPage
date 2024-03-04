@@ -14,7 +14,7 @@ export const linksData = [
   },
   {
     title: 'Work',
-    link: '/work',
+    link: '/#projects',
     num: '03. ',
     key: 'work',
   },
