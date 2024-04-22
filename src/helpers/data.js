@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/prefer-default-export
 export const linksData = [
   {
     title: 'About',
@@ -20,7 +19,7 @@ export const linksData = [
   },
   {
     title: 'Contact',
-    link: '/contact',
+    link: '/#contact',
     num: '04. ',
     key: 'contact',
   },

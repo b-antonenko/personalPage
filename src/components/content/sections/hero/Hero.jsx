@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../components/Button';
 import './styles.css';
 
 function Hero() {
@@ -25,7 +26,7 @@ function Hero() {
         </p>
       </div>
       <div className="text-wrapper">
-        <button type="button" onClick={() => console.log('clicked')}>Click me</button>
+        <Button title="Click me" onClick={() => console.log('click me')} />
       </div>
     </section>
   );
