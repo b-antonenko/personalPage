@@ -15,11 +15,11 @@ function Links() {
   console.log('links');
 
   return (
-    <div id="contact-links">
+    <aside id="contact-links">
       <ul>
         {socialLinks.map((link) => <li className="social-link" key={link.link}><a href="/#about">{link.src}</a></li>)}
       </ul>
-    </div>
+    </aside>
   );
 }
 

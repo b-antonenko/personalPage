@@ -11,6 +11,10 @@
     li {
         margin-bottom: 20px;
     }
+
+    li:hover {
+        transform: translateY(-3px);
+    }
     
     a {
         color: rgb(136, 146, 176);
@@ -18,7 +22,7 @@
     }
 
     a:hover {
-        color: rgb(100, 255, 218);
+        color: rgb(100, 255, 218); 
     }
     svg {
         height: 20px;
@@ -31,6 +35,6 @@
         width: 1px;
         height: 90px;
         margin: 0 auto;
-        background-color: white;
+        background-color: #a8b2d1;
     }
 }

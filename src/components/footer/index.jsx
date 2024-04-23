@@ -1,5 +1,6 @@
 import React from 'react';
 import Links from './components/links';
+import Email from './components/email';
 import './styles.css';
 
 function Footer() {
@@ -9,6 +10,7 @@ function Footer() {
     <footer id="footer">
       <span>Built by Bohdan Antonenko</span>
       <Links />
+      <Email />
     </footer>
   );
 }

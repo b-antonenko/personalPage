@@ -1,0 +1,45 @@
+#email-side {
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div {
+        color: white;
+        position: relative;
+        writing-mode: vertical-rl;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-family: 'SF Mono', sans-serif;
+        font-size: 12px;
+        color: #a8b2d1;
+       
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            letter-spacing: 0.1em;
+        }
+
+        a:hover {
+            cursor: pointer;
+            color: rgb(100, 255, 218);
+            transform: translateY(-3px);
+        }
+    }
+
+    div::after {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 90px;
+        margin: 0 auto;
+        background-color: #a8b2d1;
+    }
+}
