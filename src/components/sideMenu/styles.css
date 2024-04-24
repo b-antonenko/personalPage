@@ -1,0 +1,35 @@
+#sideMenu {
+    position: fixed; 
+    right: 0; 
+    height: 100%;
+    background-color: #112240; 
+    box-shadow: -10px 0px 30px -15px rgba(2,12,27,0.7);
+    width: 30%;
+    z-index: 9999;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+        list-style: none;
+
+        li {
+            margin-bottom: 20px;
+
+            a {
+                text-decoration: none;
+                font-family: 'SF Mono', sans-serif;
+                color: #ccd6f6;
+
+                &:hover {
+                    color: #64ffda;
+                }
+            }
+
+            .link-num {
+                color: #64ffda;
+            }
+        }
+    }
+}

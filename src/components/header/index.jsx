@@ -1,10 +1,13 @@
+/* eslint-disable react/require-default-props */
 import React, { useEffect, useState } from 'react';
 import './styles.css';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
 import { ReactComponent as Logo } from '../../images/AB.svg';
 import { linksData } from '../../helpers/data';
+import HamburgerMenu from './components/burgerMenu';
 
-function Header() {
+function Header({ setShowMenu }) {
   const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
@@ -47,9 +50,14 @@ function Header() {
           </ol>
           <div className="button-to-cv" />
         </div>
+        <HamburgerMenu setShowMenu={setShowMenu} />
       </nav>
     </header>
   );
 }
+
+Header.propTypes = {
+  setShowMenu: PropTypes.func,
+};
 
 export default Header;
