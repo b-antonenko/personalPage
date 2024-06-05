@@ -3,14 +3,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { linksData } from '../../helpers/data';
+import IconClose from '../../images/icons/close';
 import './styles.css';
 
-function SideMenu({ showMenu }) {
+function SideMenu({ showMenu, setShowMenu }) {
   console.log('');
 
   return (
     showMenu && (
       <aside id="sideMenu">
+        <div className="closeMenuButton">
+          <button onClick={() => setShowMenu(false)} aria-label="close" type="button"><IconClose /></button>
+        </div>
         <ul>
           {linksData.map((link) => (
             <li>
@@ -29,6 +33,7 @@ function SideMenu({ showMenu }) {
 
 SideMenu.propTypes = {
   showMenu: PropTypes.bool,
+  setShowMenu: PropTypes.func,
 };
 
 export default SideMenu;

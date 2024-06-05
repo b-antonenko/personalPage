@@ -18,6 +18,10 @@
             font-size: 40px;
             font-weight: 800;
         }
+
+        p {
+            font-family: "Teachers", sans-serif;
+        }
     }
 
     .contact-text {

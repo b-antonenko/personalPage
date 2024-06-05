@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <SideMenu showMenu={showMenu} />
+      <SideMenu showMenu={showMenu} setShowMenu={setShowMenu} />
       <Header setShowMenu={setShowMenu} />
       <Content />
       <Footer />
