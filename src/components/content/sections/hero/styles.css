@@ -29,7 +29,6 @@
         font-family: "Teachers", sans-serif;
     }
 
-    /* Media Query for screens smaller than 840px */
     @media (max-width: 1024px) {
         h2, h3 {
             font-size: 60px;

@@ -38,3 +38,9 @@
         background-color: #a8b2d1;
     }
 }
+
+@media (max-width: 770px) {
+    #contact-links {
+        display: none;
+    }
+}

@@ -31,4 +31,61 @@
             margin-left: 20px;
             background-color: #233554;
         }
+
+        @media (max-width: 1024px) {
+            h2 {
+                font-size: 26px;
+                color: #ccd6f6;
+                font-weight: 600;
+                font-family: 'Inter';
+                display: flex;
+                align-items: center;
+            }
+
+            h2::after {
+                display: none;                
+            }
+        }
+    
+        /* @media (max-width: 880px) {
+            h2, h3 {
+                font-size: 55px;
+            }
+    
+            h3 {
+                font-size: 45px;
+            }
+    
+            p {
+                font-size: 16px;
+            }
+        }
+    
+        @media (max-width: 800px) {
+            h2, h3 {
+                font-size: 45px;
+            }
+    
+            h3 {
+                font-size: 35px;
+            }
+    
+            p {
+                font-size: 16px;
+            }
+        }
+    
+        @media (max-width: 650px) {
+            h2, h3 {
+                font-size: 35px;
+            }
+    
+            h3 {
+                font-size: 18px;
+            }
+    
+            p {
+                font-size: 14px;
+            }
+        } */
     }
