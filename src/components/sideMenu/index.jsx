@@ -7,8 +7,6 @@ import IconClose from '../../images/icons/close';
 import './styles.css';
 
 function SideMenu({ showMenu, setShowMenu }) {
-  console.log('');
-
   return (
     showMenu && (
       <aside id="sideMenu">

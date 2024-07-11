@@ -5,8 +5,6 @@ import photo from '../../../../images/bohdan.jpg';
 import './styles.css';
 
 function About() {
-  console.log('about section');
-
   return (
     <section className="about" id="about">
       <Title title="About Me" sectionNumber="01. " />

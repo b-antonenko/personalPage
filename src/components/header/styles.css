@@ -39,7 +39,7 @@
 }
 
 .headerLink {
-    margin-right: 10px;
+    margin-right: 50px;
     color: white;
     text-decoration: none;
 }
@@ -69,5 +69,12 @@
 @media (max-width: 1024px) {
     .links {
         display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .header {
+        height: 60px;
+        padding: 0 25px;
     }
 }

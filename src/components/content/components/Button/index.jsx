@@ -4,8 +4,6 @@ import PropTypes from 'prop-types';
 import './styles.css';
 
 function Button({ onClick, title }) {
-  console.log('button');
-
   return (
     <button className="redirect" type="button" onClick={onClick}>{title}</button>
   );

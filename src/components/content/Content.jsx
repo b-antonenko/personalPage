@@ -8,8 +8,6 @@ import Projects from './sections/projects';
 import Contact from './sections/contact-me';
 
 function Content() {
-  console.log('jhello content');
-
   return (
     <main className="main">
       <Hero />

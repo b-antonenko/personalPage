@@ -3,8 +3,6 @@ import Button from '../../components/Button';
 import './styles.css';
 
 function Hero() {
-  console.log('hero section');
-
   return (
     <section className="hero">
       <div className="text-wrapper">

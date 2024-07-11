@@ -4,8 +4,6 @@ import PropTypes from 'prop-types';
 import './styles.css';
 
 function Title({ title, sectionNumber }) {
-  console.log('sectionNumber', sectionNumber);
-
   return (
     <div className="section_header">
       <span className="section-number">{sectionNumber}</span>
