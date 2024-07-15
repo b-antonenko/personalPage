@@ -16,11 +16,13 @@ function Hero() {
       </div>
       <div className="text-wrapper">
         <p>
-          I’m a software engineer specializing in building (and occasionally designing)
+          I’m a front-end software engineer specializing in building
           <br />
-          exceptional digital experiences. Currently, I’m focused on building accessible,
+          exceptional digital experiences for web and mobile. Currently,
           <br />
-          human-centered products at Upstatement.
+          I’m focused on building accessible,
+          <br />
+          reusable react components at Transcenda.
         </p>
       </div>
       <div className="text-wrapper">

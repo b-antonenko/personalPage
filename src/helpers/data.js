@@ -35,18 +35,18 @@ export const buttons = [
 export const data = [{
   id: 'transcenda',
   position: 'Frontend Engineer',
-  duration: 'June - July',
+  duration: 'December 2019 - Current time',
   sections:
-    ['Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more', 'Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements',
-      'Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders',
-      'Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship'],
+    ['Collaboration with a team of developers to create a cross-platform and cross-device application based on React Native to manage smart home devices. Main tech stack on this project: react native, redux, rest api, firebase',
+      'Developing a react components library based on a big design system. Main stack: react, react-bootstrap, jest, css/scss, storybook, git.',
+    ],
 },
 {
   id: 'freelance',
-  position: 'Freelance',
-  duration: 'feb - dec',
+  position: 'React Native / React engineer',
+  duration: '2019 - 2024',
   sections:
-    ['Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more', 'Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements',
-      'Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders',
-      'Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship'],
+    ['"Нумо" - kids educational mobile application. Uploaded on Apps Store & Play Market',
+      '"CheckupScout" - healthcare mobile application with the main idea to help detect possible diseases of users.',
+      '"Perkset" - the ultimate employee benefits management app for your company. Uploaded on both markets.'],
 }];

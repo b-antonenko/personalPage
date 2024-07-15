@@ -7,18 +7,16 @@ import IconInsta from '../../images/icons/insta';
 import './styles.css';
 
 export const socialLinks = [
-  { src: <IconLinkedin />, link: 'https://google.com' },
-  { src: <IconGithub />, link: 'https://google.com' },
-  { src: <IconInsta />, link: 'https://google.com' },
+  { src: <IconLinkedin />, link: 'https://www.linkedin.com/in/bantonenko/' },
+  { src: <IconGithub />, link: 'https://github.com/b-antonenko' },
+  { src: <IconInsta />, link: 'https://www.instagram.com/an______bo/' },
 ];
 
 function Footer() {
   return (
     <footer id="footer">
       <div id="footer-contacts">
-
-        {socialLinks.map((li) => <div className="footer-contacts-item" key={li.link}><a href="/#about">{li.src}</a></div>)}
-
+        {socialLinks.map((li) => <div className="footer-contacts-item" key={li.link}><a href={li.link}>{li.src}</a></div>)}
       </div>
       <span>Built by Bohdan Antonenko</span>
       <Links />

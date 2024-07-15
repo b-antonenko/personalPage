@@ -6,16 +6,16 @@ import IconInsta from '../../../../images/icons/insta';
 import './styles.css';
 
 export const socialLinks = [
-  { src: <IconLinkedin />, link: 'https://google.com' },
-  { src: <IconGithub />, link: 'https://google.com' },
-  { src: <IconInsta />, link: 'https://google.com' },
+  { src: <IconLinkedin />, link: 'https://www.linkedin.com/in/bantonenko/' },
+  { src: <IconGithub />, link: 'https://github.com/b-antonenko' },
+  { src: <IconInsta />, link: 'https://www.instagram.com/an______bo/' },
 ];
 
 function Links() {
   return (
     <aside id="contact-links">
       <ul>
-        {socialLinks.map((link) => <li className="social-link" key={link.link}><a href="/">{link.src}</a></li>)}
+        {socialLinks.map((link) => <li className="social-link" key={link.link}><a href={link.link}>{link.src}</a></li>)}
       </ul>
     </aside>
   );

@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable react/require-default-props */
 /* eslint-disable react/no-array-index-key */
 import React, { useState } from 'react';
@@ -36,6 +37,11 @@ function Tabs({ data, buttons }) {
 export default Tabs;
 
 Tabs.propTypes = {
-  data: PropTypes.arrayOf(PropTypes.string),
+  data: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string,
+    position: PropTypes.string,
+    duration: PropTypes.string,
+    sections: PropTypes.arrayOf(PropTypes.string),
+  })),
   buttons: PropTypes.arrayOf(PropTypes.shape({ id: PropTypes.string, title: PropTypes.string })),
 };

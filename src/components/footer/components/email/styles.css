@@ -16,8 +16,7 @@
         justify-content: center;
         font-family: 'SF Mono', sans-serif;
         font-size: 12px;
-        color: #a8b2d1;
-       
+        line-height: 100%;
 
         a {
             display: flex;
@@ -25,6 +24,7 @@
             justify-content: center;
             margin-bottom: 20px;
             letter-spacing: 0.1em;
+            color: #a8b2d1;
         }
 
         a:hover {

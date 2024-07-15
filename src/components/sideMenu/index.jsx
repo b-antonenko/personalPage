@@ -16,7 +16,7 @@ function SideMenu({ showMenu, setShowMenu }) {
         <ul>
           {linksData.map((link) => (
             <li>
-              <a href={link.link}>
+              <a href={link.link} onClick={() => setShowMenu(false)}>
                 <span className="link-num">{link.num}</span>
                 {' '}
                 {link.title}

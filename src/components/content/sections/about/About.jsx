@@ -11,24 +11,22 @@ function About() {
       <div className="about_content">
         <div className="about_text">
           <p>
-            Hello! My name is Brittany and I enjoy creating things that live on
+            Hello! My name is Bohdan and I enjoy creating things that live on
             <br />
-            the internet. My interest in web development started back in 2012
+            the internet. My interest in web development started back in 2019
             <br />
-            when I decided to try editing custom Tumblr themes — turns out
+            when I decided to try web engineering,
             <br />
-            hacking together a custom reblog button taught me a lot about HTML & CSS!
+            starting to develop cross-platform mobile apps based on React Native!
           </p>
           <p>
-            Fast-forward to today, and I’ve had the privilege of working at
+            Fast-forward to today, and I’ve had the privilege of working on a different projects.
             <br />
-            an advertising agency, a start-up, a huge corporation, and
+            My main focus these days is building
             <br />
-            a student-led design studio. My main focus these days is building
+            accessible, inclusive components and digital experiences
             <br />
-            accessible, inclusive products and digital experiences
-            <br />
-            at Upstatement for a variety of clients.
+            at Transcenda for a variety of clients.
           </p>
           <p>
             Here are a few technologies I’ve been working with recently:
