@@ -25,7 +25,7 @@ function Tabs({ data, buttons }) {
         <h3>{dataObject.position}</h3>
         <span>{dataObject.duration}</span>
         <ul>
-          {dataObject.sections.map((section) => <li className="experience_item" key={`${section.id}`}>{section}</li>)}
+          {dataObject.sections.map((section, index) => <li className="experience_item" key={`${section.id}_${index}`}>{section}</li>)}
         </ul>
       </div>
     </div>

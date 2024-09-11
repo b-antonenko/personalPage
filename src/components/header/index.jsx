@@ -3,7 +3,8 @@ import React, { useEffect, useState } from 'react';
 import './styles.css';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import { ReactComponent as Logo } from '../../images/AB.svg';
+// import Logo from '../../images/ab.svg';
+import Ab from '../../images/icons/ab';
 import { linksData } from '../../helpers/data';
 import HamburgerMenu from './components/burgerMenu';
 
@@ -35,7 +36,7 @@ function Header({ setShowMenu }) {
         <div className="logo">
           <div>
             <a href="/" aria-label="home button">
-              <Logo width="50px" height="50px" />
+              <Ab width="50px" height="50px" />
             </a>
           </div>
         </div>
