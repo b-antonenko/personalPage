@@ -4,7 +4,7 @@ import svgr from '@svgr/rollup';
 
 export default defineConfig(() => ({
   build: {
-    outDir: 'build',
+    outDir: 'dist',
   },
   plugins: [react(), svgr()],
 }));
