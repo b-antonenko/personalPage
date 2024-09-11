@@ -50,3 +50,9 @@ export const data = [{
       '"CheckupScout" - healthcare mobile application with the main idea to help detect possible diseases of users.',
       '"Perkset" - the ultimate employee benefits management app for your company. Uploaded on both markets.'],
 }];
+
+export const onSayHelloButtonClick = () => {
+  const email = 'b_antonenko@icloud.com';
+  const subject = 'Hello, Bohdan';
+  window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
+};

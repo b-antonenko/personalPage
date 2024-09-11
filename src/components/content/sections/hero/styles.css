@@ -1,4 +1,5 @@
 .text-wrapper {
+    animation: appearing 1s ease-in 0s 1 normal none;
     h1 {
         color: #64ffda;
         margin: 0 0 30px 4px;

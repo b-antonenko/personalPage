@@ -1,7 +1,6 @@
 /* eslint-disable react/require-default-props */
-/* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/control-has-associated-label */
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import IconHamburger from '../../../../images/icons/hamburger';
 import './styles.css';

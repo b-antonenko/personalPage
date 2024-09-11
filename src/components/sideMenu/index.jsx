@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/require-default-props */
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -15,7 +14,7 @@ function SideMenu({ showMenu, setShowMenu }) {
         </div>
         <ul>
           {linksData.map((link) => (
-            <li>
+            <li key={link.title}>
               <a href={link.link} onClick={() => setShowMenu(false)}>
                 <span className="link-num">{link.num}</span>
                 {' '}

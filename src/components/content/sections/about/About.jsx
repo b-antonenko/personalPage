@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
+import classNames from 'classnames';
 import { technologies } from '../../../../helpers/data';
 import Title from '../../components/Title';
 import photo from '../../../../images/bohdan.jpg';
+import useElementObserver from '../../../../helpers/hooks/useElementObserver';
 import './styles.css';
 
 function About() {
+  const [isVisible, setIsVisible] = useState(false);
+  const blockRef = useRef();
+
+  useElementObserver(blockRef, setIsVisible);
+
+  const blockClasses = classNames('about', {
+    hidden: !isVisible,
+    animated: isVisible,
+  });
   return (
-    <section className="about" id="about">
+    <section ref={blockRef} className={blockClasses} id="about">
       <Title title="About Me" sectionNumber="01. " />
       <div className="about_content">
         <div className="about_text">

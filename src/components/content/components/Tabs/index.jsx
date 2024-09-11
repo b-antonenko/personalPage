@@ -1,6 +1,4 @@
-/* eslint-disable no-console */
 /* eslint-disable react/require-default-props */
-/* eslint-disable react/no-array-index-key */
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
@@ -27,7 +25,7 @@ function Tabs({ data, buttons }) {
         <h3>{dataObject.position}</h3>
         <span>{dataObject.duration}</span>
         <ul>
-          {dataObject.sections.map((section, index) => <li className="experience_item" key={`${index}`}>{section}</li>)}
+          {dataObject.sections.map((section) => <li className="experience_item" key={`${section.id}`}>{section}</li>)}
         </ul>
       </div>
     </div>

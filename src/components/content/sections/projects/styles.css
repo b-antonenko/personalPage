@@ -1,4 +1,5 @@
-#projects {
+.projects {
+    visibility: visible;
     h3 {
         color: white;
         align-self: center;

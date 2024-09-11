@@ -13,3 +13,23 @@ body {
   height: 100%;
   width: 100%;
 }
+
+.animated {
+  animation: appearing 0.5s ease-out 0s 1 normal none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+@keyframes appearing {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

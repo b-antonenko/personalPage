@@ -1,4 +1,6 @@
 .about {
+    visibility: visible;
+    
     .about_content {
         display: grid;
         grid-template-columns: 3fr 2fr;

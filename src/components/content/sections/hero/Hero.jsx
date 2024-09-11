@@ -1,10 +1,22 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
+import classNames from 'classnames';
 import Button from '../../components/Button';
+import { onSayHelloButtonClick } from '../../../../helpers/data';
+import useElementObserver from '../../../../helpers/hooks/useElementObserver';
 import './styles.css';
 
 function Hero() {
+  const [isVisible, setIsVisible] = useState(false);
+  const blockRef = useRef();
+
+  useElementObserver(blockRef, setIsVisible);
+
+  const blockClasses = classNames('hero', {
+    animated: isVisible,
+  });
+
   return (
-    <section className="hero">
+    <section ref={blockRef} className={blockClasses}>
       <div className="text-wrapper">
         <h1>Hi, my name is</h1>
       </div>
@@ -26,7 +38,7 @@ function Hero() {
         </p>
       </div>
       <div className="text-wrapper">
-        <Button title="Click me" onClick={() => console.log('click me')} />
+        <Button title="Say hello &#128075;" onClick={onSayHelloButtonClick} />
       </div>
     </section>
   );

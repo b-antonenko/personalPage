@@ -1,6 +1,6 @@
-/* eslint-disable max-len */
 import React from 'react';
 import Button from '../../components/Button';
+import { onSayHelloButtonClick } from '../../../../helpers/data';
 import './styles.css';
 
 function Contact() {
@@ -19,7 +19,7 @@ function Contact() {
           I’ll try my best to get back to you!
         </p>
       </div>
-      <Button title="Say Hello" onClick={() => console.log('say hello')} />
+      <Button title="Say Hello" onClick={onSayHelloButtonClick} />
     </section>
   );
 }
