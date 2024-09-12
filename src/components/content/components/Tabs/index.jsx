@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import './styles.css';
+// import './styles.css';
 
 function Tabs({ data, buttons }) {
   const [activeButton, setActiveButton] = useState(buttons[0].id);
