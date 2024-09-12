@@ -23,7 +23,7 @@ const useElementObserver = (elementRef, setIsVisible) => {
         observer.unobserve(elementRef.current);
       }
     };
-  }, []);
+  }, [elementRef, setIsVisible]);
 };
 
 export default useElementObserver;

@@ -12,7 +12,7 @@ function Landing() {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setShowSplash(false);
-    }, 4001);
+    }, 3001);
 
     return () => {
       clearTimeout(timeoutId)

@@ -76,5 +76,6 @@
     .header {
         height: 60px;
         padding: 0 25px;
+        background-color: #0a192f;
     }
 }
