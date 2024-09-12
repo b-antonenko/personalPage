@@ -1,0 +1,45 @@
+.eyes {
+    display: inline-flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .eyes:before,
+  .eyes:after {
+    content: "";
+    height: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+      radial-gradient(farthest-side,#000 95%,#0000) 35% 35%/6px 6px no-repeat
+      #fff;
+    animation: l5 3s infinite;
+  }
+  @keyframes l5 {
+    0%,11%   {background-position:35% 35%}
+    14%,36%  {background-position:65% 35%}
+    38%,61%  {background-position:65% 65%}
+    64%,86%  {background-position:35% 65%}
+    88%,100% {background-position:35% 35%}
+  }
+
+.loader {
+    width: 120px;
+    height: 22px;
+    border-radius: 20px;
+    color: #64ffda;
+    border: 2px solid;
+    position: relative;
+    margin-top: 20px;
+  }
+  .loader::before {
+    content: "";
+    position: absolute;
+    margin: 2px;
+    inset: 0 100% 0 0;
+    border-radius: inherit;
+    background: currentColor;
+    animation: l6 4s infinite;
+  }
+  @keyframes l6 {
+      100% {inset:0}
+  }

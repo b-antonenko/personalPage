@@ -1,13 +1,13 @@
 import React from 'react';
 
-function Ab() {
+function Ab({height='50', width='50'}) {
   return (
     <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
     version="1.1"
-    width="50"
-    height="50"
+    width={width}
+    height={height}
     viewBox="0 0 1080 1080"
   >
     <g transform="matrix(1 0 0 1 540 540)" id="5d8d0f91-8d47-450b-9202-0cf7de834820"></g>

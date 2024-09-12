@@ -35,7 +35,7 @@ function Header({ setShowMenu }) {
       <nav id="navigation">
         <div className="logo">
           <div>
-            <a href="/" aria-label="home button">
+            <a href="#app" aria-label="home button">
               <Ab width="50px" height="50px" />
             </a>
           </div>
