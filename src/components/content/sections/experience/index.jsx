@@ -4,7 +4,6 @@ import Title from '../../components/Title';
 import Tabs from '../../components/Tabs';
 import { data, buttons } from '../../../../helpers/data';
 import useElementObserver from '../../../../helpers/hooks/useElementObserver';
-import './styles.css';
 
 function Experience() {
   const [isVisible, setIsVisible] = useState(false);

@@ -14,12 +14,21 @@ body {
   width: 100%;
 }
 
-.hidden {
-  visibility: hidden;
-}
+.experience {
+  max-width: 700px;
+  visibility: visible;
 
-.animated {
-  animation: appearing 0.5s ease-out 0s 1 normal none;
+  @media (max-width: 880px) {
+      .experience_item {
+          font-size: 16px;
+      }
+  }
+
+  @media (max-width: 650px) {
+      .experience_item {
+          font-size: 14px;
+      }
+  }
 }
 
 .tabs {
@@ -94,6 +103,14 @@ body {
           left: 0;
           color: #64ffda;
       }
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.animated {
+  animation: appearing 0.5s ease-out 0s 1 normal none;
 }
 
 @keyframes appearing {
