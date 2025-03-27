@@ -37,7 +37,7 @@ function About() {
             <br />
             accessible, inclusive components and digital experiences
             <br />
-            at Transcenda for a variety of clients.
+            at Transcenda for a variety of clients. Right now, I'm looking for a new opportunities.
           </p>
           <p>
             Here are a few technologies I’ve been working with recently:

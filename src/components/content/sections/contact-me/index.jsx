@@ -12,7 +12,7 @@ function Contact() {
       </div>
       <div className="contact-text">
         <p>
-          Although I’m not currently looking for any new opportunities,
+          Currently I'm looking for new opportunities, so
           <br />
           my inbox is always open. Whether you have a question or just want to say hi,
           <br />

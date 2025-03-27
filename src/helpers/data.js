@@ -1,3 +1,7 @@
+import reactPosterImg from '../images/react-poster.png';
+import personalPage from '../images/personalPage.png';
+import natours from '../images/natours.png';
+
 export const linksData = [
   {
     title: 'About',
@@ -56,3 +60,30 @@ export const onSayHelloButtonClick = () => {
   const subject = 'Hello, Bohdan';
   window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
 };
+
+export const projects = [
+  {
+    name: 'React Poster',
+    description: 'A minimal React app for managing posts, built with Vite, React Router, and CSS Modules. As a back-end MockApi used.',
+    stack: ['react', 'react router', 'css modules', 'vite', 'mockApi', 'netlify'],
+    website: 'https://react-poster-ab.netlify.app/',
+    git: 'https://github.com/b-antonenko/react-poster',
+    img: reactPosterImg,
+  },
+  {
+    name: 'My Personal Page',
+    description: 'My personal website page built on react + vite, running on Netlify',
+    stack: ['react', 'css', 'vite', 'netlify'],
+    website: 'https://b-an.dev/',
+    git: 'https://github.com/b-antonenko/personalPage',
+    img: personalPage,
+  },
+  {
+    name: 'Natours',
+    description: 'Natours is a modern, desktop-first, responsive travel website built using HTML, CSS, and Sass. The project follows the 7-1 Sass architecture to maintain a clean and modular structure.',
+    stack: ['html', 'css', 'sass', 'netlify'],
+    website: 'https://natours-ab.netlify.app/',
+    git: 'https://github.com/b-antonenko/natours',
+    img: natours,
+  },
+];
