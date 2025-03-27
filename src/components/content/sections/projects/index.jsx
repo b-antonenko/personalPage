@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import classNames from 'classnames';
 import useElementObserver from '../../../../helpers/hooks/useElementObserver';
 import Title from '../../components/Title';
+import Project from '../../components/Project';
 import './styles.css';
 
 function Projects() {
@@ -18,7 +19,9 @@ function Projects() {
   return (
     <section id="projects" className={blockClasses} ref={blockRef}>
       <Title title="Some Things I’ve Built" sectionNumber="03. " />
-      <h3>TBA...</h3>
+      <Project />
+      <Project />
+      <Project />
     </section>
   );
 }
