@@ -4,7 +4,7 @@ import useElementObserver from '../../../../helpers/hooks/useElementObserver';
 import Title from '../../components/Title';
 import Project from '../../components/Project';
 import { projects } from '../../../../helpers/data';
-import './styles.css';
+// import './styles.css';
 
 function Projects() {
   const [isVisible, setIsVisible] = useState(false);
@@ -12,13 +12,13 @@ function Projects() {
 
   useElementObserver(blockRef, setIsVisible);
 
-  const blockClasses = classNames('projects', {
-    hidden: !isVisible,
-    animated: isVisible,
-  });
+  // const blockClasses = classNames('projects', {
+  //   // hidden: !isVisible,
+  //   // animated: isVisible,
+  // });
 
   return (
-    <section id="projects" className={blockClasses} ref={blockRef}>
+    <section id="projects" className="projects" ref={blockRef}>
       <Title title="Some Things I’ve Built" sectionNumber="03. " />
       {projects.map((project, i) =>  
         <Project 
